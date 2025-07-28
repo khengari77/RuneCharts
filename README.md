@@ -1,38 +1,55 @@
-# sv
+# RuneCharts 📊✨
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern, performant, and developer-friendly charting library for Svelte 5. **RuneCharts** is built from the ground up to leverage the power of Svelte Runes and the flexibility of D3.js, offering a native, code-first solution for building beautiful and interactive data visualizations.
 
-## Creating a project
+This project is for developers who want to break free from the "glass ceiling" of traditional BI tools and embed deeply customized, high-performance data experiences directly into their web applications.
 
-If you're seeing this, you've probably already done this step. Congrats!
+[![Storybook](https://img.shields.io/badge/Storybook-Live%20Demo-ff4785?style=for-the-badge&logo=storybook)](https://your-storybook-url.com)
+<!-- TODO: Deploy your Storybook and add the live URL here -->
 
-```sh
-# create a new project in the current directory
-npx sv create
+---
 
-# create a new project in my-app
-npx sv create my-app
+### Key Features
+
+-   **Svelte 5 Runes First:** Built on the new reactivity model for fine-grained, predictable, and blazing-fast updates.
+-   **D3-Powered Core:** Uses D3.js for its powerful scales, shapes, and mathematical precision, while Svelte handles the DOM.
+-   **Fully Responsive & Interactive:** Components are designed to be responsive out-of-the-box and come with built-in interactivity like tooltips and transitions.
+-   **TypeScript Native:** Written entirely in TypeScript for a robust, type-safe developer experience.
+-   **Component-First Architecture:** Composable and extensible by design. Low-level primitives like `Axis` and `Tooltip` can be used to build any custom chart.
+
+### Technology Stack
+
+-   **Framework:** [Svelte 5](https://svelte.dev/blog/runes) (Runes Mode)
+-   **Visualization Primitives:** [D3.js](https://d3js.org/)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Development Environment:** [Storybook](https://storybook.js.org/)
+-   **Build Tool:** [Vite](https://vitejs.dev/)
+
+### Getting Started
+
+To explore the components locally, clone the repository and start the Storybook development server.
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/runecharts.git
+cd runecharts
+
+# Install dependencies
+npm install
+
+# Launch Storybook
+npm run storybook
 ```
 
-## Developing
+This will open the Storybook interface in your browser, where you can view all components, interact with their props, and see them in action.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Philosophy
 
-```sh
-npm run dev
+The web has evolved beyond static dashboards embedded in iframes. Modern applications demand data visualizations that are as integrated, interactive, and performant as any other part of the UI. **RuneCharts** is built on this belief—that by providing developers with a set of well-crafted, unopinionated primitives, we can empower them to tell data stories without limits.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Current Components
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+-   [x] **Bar Chart:** Responsive, animated, with axes and interactive tooltips.
+-   [ ] **Line Chart**
+-   [ ] **Scatter Plot**
+-   [ ] ...and more to come!

@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "svelte-dataviz-lib",
+      "name": "runecharts",
       "dependencies": {
         "d3-array": "^3.2.4",
         "d3-axis": "^3.0.0",
