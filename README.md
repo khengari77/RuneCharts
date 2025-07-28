@@ -4,7 +4,7 @@ A modern, performant, and developer-friendly charting library for Svelte 5. **Ru
 
 This project is for developers who want to break free from the "glass ceiling" of traditional BI tools and embed deeply customized, high-performance data experiences directly into their web applications.
 
-[![Storybook](https://img.shields.io/badge/Storybook-Live%20Demo-ff4785?style=for-the-badge&logo=storybook)](https://your-storybook-url.com)
+[![Storybook](https://img.shields.io/badge/Storybook-Live%20Demo-ff4785?style=for-the-badge&logo=storybook)]()
 <!-- TODO: Deploy your Storybook and add the live URL here -->
 
 ---
