@@ -10,7 +10,6 @@ const meta = {
   // but we can override or add custom controls here.
   argTypes: {
     barColor: { control: 'color', description: 'Color of the bars.' },
-    width: { control: 'number', description: 'Width of the SVG container.' },
     height: { control: 'number', description: 'Height of the SVG container.' },
     // Data prop usually handled via `args.data` directly
   },
@@ -39,7 +38,6 @@ const sampleData: DataPoint[] = [
 export const Default: Story = {
   args: {
     data: sampleData,
-    width: 500,
     height: 300,
     barColor: '#4e79a7', // Default color
   },
@@ -48,7 +46,6 @@ export const Default: Story = {
 export const CustomColor: Story = {
     args: {
       data: sampleData,
-      width: 500,
       height: 300,
       barColor: '#e15759', // A nice red
     },
@@ -60,7 +57,6 @@ export const FewerBars: Story = {
         { name: 'Sales', value: 120 },
         { name: 'Marketing', value: 95 },
       ],
-      width: 300,
       height: 400,
     },
 };
@@ -68,7 +64,6 @@ export const FewerBars: Story = {
 export const EmptyData: Story = {
     args: {
       data: [],
-      width: 500,
       height: 300,
       barColor: '#76b7b2',
     },
